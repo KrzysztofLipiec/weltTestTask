@@ -2,13 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a7370871-773f-48a5-bb33-9faa072cd505" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/interfaces/user/IAddress.ts" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/interfaces/user/ICompany.ts" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/interfaces/user/IGeo.ts" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/interfaces/user/IUser.ts" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/interfaces/post/IPost.ts" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/services/PostsService.ts" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/components/posts/PostsComponent.ts" afterPath="$PROJECT_DIR$/src/components/posts/PostsComponent.ts" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/services/UsersService.ts" afterPath="$PROJECT_DIR$/src/services/UsersService.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/components/posts/PostsModule.ts" afterPath="$PROJECT_DIR$/src/components/posts/PostsModule.ts" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -29,11 +27,43 @@
       <file leaf-file-name="PostsComponent.ts" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/components/posts/PostsComponent.ts">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="12" column="30" lean-forward="true" selection-start-line="12" selection-start-column="30" selection-end-line="12" selection-end-column="30" />
+            <state relative-caret-position="374">
+              <caret line="22" column="31" lean-forward="false" selection-start-line="22" selection-start-column="31" selection-end-line="22" selection-end-column="31" />
               <folding>
                 <element signature="e#0#40#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="PostsModule.ts" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/components/posts/PostsModule.ts">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="102">
+              <caret line="6" column="28" lean-forward="true" selection-start-line="6" selection-start-column="28" selection-end-line="6" selection-end-column="28" />
+              <folding>
+                <element signature="e#0#48#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="PostsService.ts" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/services/PostsService.ts">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="85">
+              <caret line="5" column="7" lean-forward="false" selection-start-line="5" selection-start-column="7" selection-end-line="5" selection-end-column="7" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="UsersService.ts" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/services/UsersService.ts">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="68">
+              <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="5" selection-end-column="33" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -61,12 +91,14 @@
         <option value="$PROJECT_DIR$/src/app/app.tmpl.html" />
         <option value="$PROJECT_DIR$/src/Services/UsersService.ts" />
         <option value="$PROJECT_DIR$/src/configs/ServerConfig.ts" />
-        <option value="$PROJECT_DIR$/src/components/posts/PostsModule.ts" />
         <option value="$PROJECT_DIR$/src/interfaces/user/IGeo.ts" />
         <option value="$PROJECT_DIR$/src/interfaces/user/IAddress.ts" />
         <option value="$PROJECT_DIR$/src/interfaces/user/ICompany.ts" />
         <option value="$PROJECT_DIR$/src/interfaces/user/IUser.ts" />
         <option value="$PROJECT_DIR$/src/services/UsersService.ts" />
+        <option value="$PROJECT_DIR$/src/interfaces/post/IPost.ts" />
+        <option value="$PROJECT_DIR$/src/services/PostsService.ts" />
+        <option value="$PROJECT_DIR$/src/components/posts/PostsModule.ts" />
         <option value="$PROJECT_DIR$/src/components/posts/PostsComponent.ts" />
       </list>
     </option>
@@ -160,6 +192,28 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="interfaces" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="weltTestTask" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="weltTestTask" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="interfaces" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="post" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -277,12 +331,12 @@
       <option name="presentableId" value="Default" />
       <updated>1494614765285</updated>
       <workItem from="1494614766420" duration="868000" />
-      <workItem from="1494615642778" duration="2010000" />
+      <workItem from="1494615642778" duration="2675000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="2878000" />
+    <option name="totallyTimeSpent" value="3543000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1913" y="0" width="1934" height="2137" extended-state="0" />
@@ -337,6 +391,10 @@
         <option value="$PROJECT_DIR$/src/interfaces/user/IAddress.js.map" />
         <option value="$PROJECT_DIR$/src/interfaces/user/IGeo.js.map" />
         <option value="$PROJECT_DIR$/src/interfaces/user/IAddress.js" />
+        <option value="$PROJECT_DIR$/src/services/PostsService.js.map" />
+        <option value="$PROJECT_DIR$/src/services/PostsService.js" />
+        <option value="$PROJECT_DIR$/src/interfaces/post/IPost.js.map" />
+        <option value="$PROJECT_DIR$/src/interfaces/post/IPost.js" />
       </list>
     </option>
   </component>
@@ -490,16 +548,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/posts/PostsModule.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="24" lean-forward="true" selection-start-line="6" selection-start-column="24" selection-end-line="6" selection-end-column="24" />
-          <folding>
-            <element signature="e#0#48#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/interfaces/user/ICompany.ts">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="51">
@@ -524,16 +572,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/services/UsersService.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" column="55" lean-forward="false" selection-start-line="12" selection-start-column="55" selection-end-line="12" selection-end-column="55" />
-          <folding>
-            <element signature="e#0#41#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/interfaces/user/IUser.ts">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
@@ -544,10 +582,44 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/services/UsersService.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="5" selection-end-column="33" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/interfaces/post/IPost.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="15" lean-forward="false" selection-start-line="4" selection-start-column="15" selection-end-line="4" selection-end-column="15" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/posts/PostsModule.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="28" lean-forward="true" selection-start-line="6" selection-start-column="28" selection-end-line="6" selection-end-column="28" />
+          <folding>
+            <element signature="e#0#48#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/services/PostsService.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="7" lean-forward="false" selection-start-line="5" selection-start-column="7" selection-end-line="5" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/components/posts/PostsComponent.ts">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" column="30" lean-forward="true" selection-start-line="12" selection-start-column="30" selection-end-line="12" selection-end-column="30" />
+        <state relative-caret-position="374">
+          <caret line="22" column="31" lean-forward="false" selection-start-line="22" selection-start-column="31" selection-end-line="22" selection-end-column="31" />
           <folding>
             <element signature="e#0#40#0" expanded="true" />
           </folding>
