@@ -4,12 +4,13 @@ import {ServerConfig} from "../configs/ServerConfig";
 import {Observable} from "rxjs/Observable";
 import 'rxjs/add/operator/map';
 import 'rxjs/add/operator/catch';
+import {IUser} from "../interfaces/user/IUser";
 @Injectable()
 export class UsersService {
   constructor(private http: Http) {
   }
 
-  public fetchUser(userId: number): Observable<any> {//ToDo prepare interface
+  public fetchUser(userId: number): Observable<IUser> {
     return this.http.get(ServerConfig.apiUrl + '/users/' + userId).map((res: Response) => {
       return res.json() || {};
     }).catch(this.handleError);

@@ -1,5 +1,6 @@
 import {Component} from "@angular/core";
 import {UsersService} from "../../services/UsersService";
+import {IUser} from "../../interfaces/user/IUser";
 @Component({
   selector: 'posts',
   moduleId: module.id,
@@ -8,11 +9,11 @@ import {UsersService} from "../../services/UsersService";
 export class PostsComponent {
   constructor(private usersService: UsersService) {
     this.usersService.fetchUser(1).subscribe(
-      (response: any) => {//ToDo use user interface after implementation
+      (response: IUser) => {
         console.log(response);
       },
-      () => {
-
+      (error: any) => {
+        console.error(error);
       }
     );
   }
