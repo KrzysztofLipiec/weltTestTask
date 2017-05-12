@@ -1,1 +1,7 @@
-posts test view
+<div class="posts">
+  <div class="post" *ngFor="let postData of data">
+    <div>{{postData.user.name}}</div>
+    <div>{{postData.post.title}}</div>
+    <div>{{postData.post.body}}</div>
+  </div>
+</div>
