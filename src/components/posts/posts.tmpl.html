@@ -1,7 +1,15 @@
 <div class="posts">
   <div class="post" *ngFor="let postData of data">
-    <div>{{postData.user.name}}</div>
-    <div>{{postData.post.title}}</div>
-    <div>{{postData.post.body}}</div>
+    <div class="title">
+      <span class="user-info">
+        <span class="user-name">{{postData.user.name}} from {{postData.user.address.city}}</span>
+      </span>
+      <span class="post-title">
+        Title: {{postData.post.title}}
+      </span>
+    </div>
+    <div class="post-content">
+      {{postData.post.body}}
+    </div>
   </div>
 </div>
